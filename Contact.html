@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+</head>
+<body>
+<header>
+    <h1>Contacts</h1>
+    <nav>
+        <a href="MySkills.html">See My Skills</a></br>
+        <a href="index.html">See My Profile</a></br>
+        <a href="MyProjects.html">See My Projects</a>
+    </nav>
+</header>
+    <section>
+        <form>
+            <h3>Please fill in the form and add your question</h3>
+            <div id="nameInputContainer">
+                <span>Enter your name:</span>
+                <input id="nameInput" placeholder="Example: Mariam Dgebuadze"/>
+            </div><!--container tags: span, section, div, p-->
+            <div id="phoneNrInputContainer">
+                <span>Enter your phone number:</span>
+                <input id="phoneNrInput"/>
+            </div>
+            <div id="emailInputContainer">
+                <span>Enter your email address:</span>
+                <input id="emailInput"/>
+            </div>
+            <div id="inquirtTextAreaContainer">
+                <span>Add your question</span>
+                <textarea id="inquiryTextAreaInput"></textarea>
+            </div>
+            <div id="replyOptionContainer">
+                <span>How do you want me to reply</span>
+                <select id="replyOptionInput">
+                    <option>Email</option>
+                    <option>SMS</option>
+                </select>
+            </div>
+            <div id="inquiryTypeContainer">
+                <span>Choose inquire type</span>
+                    <div>
+                        <input type="radio" id="complaint" name="inquiryType" value="complaint"/>
+                        <label for="complaint">Complaint</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="project" name="inquiryType" value="project"/>
+                        <label for="project">Project</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="inquiryType" value="suggestion"/>
+                        <label for="suggestion">Suggestion</label>
+                    </div>
+
+                <div><br/>
+                    <input type="submit" value="Input Button to Submit">
+                    <button type="submit">Submit the form</button>
+                </div>
+
+                </select>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
