@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 <head>
     <meta charset="UTF-8">
     <title>Search</title>
 </head>
 <body>
     <header>
-        <h3>Searching in Google</h3>
+        <nav>
+            <a href="MySkills.html">ჩემი უნარები</a></br>
+            <a href="index.html">ჩემი პროფილი</a></br>
+            <a href="MyProjects.html">ჩემი პროექტები</a></br>
+            <a href="Contact.html">კონტაქტი</a>
+
+        </nav>
+        <h3>ვიპოვოთ ვიდეოები იუთუბზე</h3>
     </header>
-    <form method="get" action="https://www.google.com/search">
-        <h2>Please enter what you want to search for</h2>
+    <form method="get" action="https://www.youtube.com/results">
+        <h2>შეიყვანე ვიდეოს დასახელება, რომლის პოვნაც გინდა იუთუბზე</h2>
         <div id="searchInputContainer">
-            <span>Search for:</span>
-            <input id="searchInput" placeholder="food" name="q"/><!--type="number"-->
+            <span>მოძებნე:</span>
+            <input id="searchInput" placeholder="ქვეყანა საქართველო" name="search_query"/><!--type="number"-->
         </div>
     <br/>
-        <button type="submit">Search Google</button>
+        <button type="submit">ძიება იუთუბზე</button>
 
     </form>
 </body>
